@@ -8,11 +8,17 @@
   float: left;
   padding: 0 0 .2em 1em;
 }
-
 .icon-menu {
+ font-size: 2.5rem;
+ float: right;
+ margin: 1rem;
+}
+
+.icon-menu:active {
   /* TODO: Add styles for the icon-menu class (whether it be the
       hamburger font or an image of your choosing). It should be
       bigger, and off to the right. */
+      font-size: 34px;
 }
 
 .main-nav {
@@ -35,6 +41,8 @@
 
 .main-nav li {
   margin-right: .4em;
+  display: inline-block;
+  float: right;
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
