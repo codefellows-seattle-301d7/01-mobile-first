@@ -10,7 +10,7 @@
 }
 
 .icon-menu {
-  /* TODO: Add styles for the icon-menu class (whether it be the
+  /*  Add styles for the icon-menu class (whether it be the
       hamburger font or an image of your choosing). It should be
       bigger, and off to the right. */
       /*align: right;*/
@@ -61,7 +61,7 @@
   text-decoration: none;
 }
 
-/* TODO: Now add styles for how things should look on a larger screen,
+/*  Now add styles for how things should look on a larger screen,
    (hint: min is in!):
 @media only screen...
          - Hide the hamburger.
