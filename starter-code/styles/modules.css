@@ -8,10 +8,26 @@
   float: left;
   padding: 0 0 .2em 1em;
 }
+
+input {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    opacity: 0;
+}
+
+#menuToggle input:checked ~ ul {
+  opacity: 1;
+}
+
 .icon-menu {
  font-size: 2.5rem;
- float: right;
- margin: 1rem;
+ /*margin: 1rem;*/
+ position: absolute;
+ top: 1rem;
+ right: 1rem;
 }
 
 .icon-menu:active {
@@ -30,6 +46,7 @@
       expecting the UI to be mobile, therefore our new icon menu
       takes its place. */
   /*display: none;*/
+  opacity: 0;
   padding: 0;
   list-style: none;
   clear: both;

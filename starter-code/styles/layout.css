@@ -22,6 +22,12 @@
 }
 
 /* DONE: Add styles so the filters lay out better on desktop. */
+@media screen and (min-width: 425px) {
+  #menuToggle {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 640px) {
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
