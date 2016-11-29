@@ -68,3 +68,9 @@
          - The main-nav should be all on one row, with padding spaced better
            for a larger screen.
 */
+
+@media only screen and (min-width: 640px) {
+  .icon-menu, .icon-home, .icon-cross, .icon-twitter, .icon-github {
+    visibility: hidden;
+  }
+}
